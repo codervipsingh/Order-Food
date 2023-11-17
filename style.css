@@ -1,0 +1,56 @@
+body {
+    background-image: url(./cover.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  h1{
+    color: #deba44;
+    font-size: 5rem;
+    text-transform:uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  button{
+    margin-top: -100px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:5300;
+    color: #332c28;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #food-menu {
+    font-size: 25px;
+    color: #deba44;
+    text-shadow: 2px 2px 4px #000000;
+  
+  }
+  h2{
+    font-size: 25px;
+    color: #deba44;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  #order-status {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  #ordered-food {
+    display: none;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ label{
+    color:#deba44;
+  }
+  #order-id{
+    color: #deba44;
+  }
